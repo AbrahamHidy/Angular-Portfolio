@@ -1,11 +1,12 @@
 
 @media (min-height: 0px){
     #homeContainer {
-        background-image: url(../../../assets/images/backgroundTextureCropped.jpg);
+        background-image: url(../../../assets/images/backgroundTexture.jpg);
         background-size: cover;
         min-height: 1000px;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-position: bottom center;
     }   
 }
 
