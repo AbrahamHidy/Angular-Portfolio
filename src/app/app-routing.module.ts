@@ -8,6 +8,8 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    data: { animation: 'isLeft'},
+
   },
   {
     path: "about",
@@ -16,6 +18,8 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent,
+    data: { animation: 'isRight'},
+
   }
 ];
 

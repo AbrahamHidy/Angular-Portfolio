@@ -1,5 +1,7 @@
 <app-header></app-header>
-<main [@routeAnimations]="prepareRoute(outlet)" class="content">
+
+<div [@routeAnimations]="prepareRoute(outlet)">
     <router-outlet #outlet="outlet"></router-outlet>
-</main>
+</div>
+
 <app-footer class="mt-auto"></app-footer>
