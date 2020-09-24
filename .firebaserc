@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "abraham-hidy-dev": {
+      "hosting": {
+        "angular-bootstrap-portfolio": [
+          "abraham-hidy-dev"
+        ]
+      }
+    }
+  }
+}
