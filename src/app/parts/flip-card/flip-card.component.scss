@@ -25,6 +25,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    border-radius: 6px;
 }
 
 .flip-card-front {
@@ -46,4 +47,6 @@
 
 #image {
     object-fit: cover;
+    border-radius: 6px;
+
 }
