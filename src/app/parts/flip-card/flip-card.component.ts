@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-flip-card',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./flip-card.component.scss']
 })
 export class FlipCardComponent implements OnInit {
+  @Input() imageName: String = 'AHV Logo.png';
+  @Input() title: String = 'Project';
+  @Input() description: String = '';
+
+  imagePath: String = '';
 
   constructor() { }
 
   ngOnInit(): void {
+    this.imagePath = "../../../assets/images/" + this.imageName;
   }
-
 }

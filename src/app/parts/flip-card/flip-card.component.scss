@@ -33,12 +33,17 @@
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgba(0, 110, 255, 0.555);
     color: white;
     transform: rotateY(180deg);
+    padding: 6px;
 }
 
 .card-image {
     width: 300px;
     height: 200px;
+}
+
+#image {
+    object-fit: cover;
 }
